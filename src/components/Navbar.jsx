@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       
-      <ul className={`hidden md:flex`}>
+      {/* <ul className={`hidden md:flex`}>
         <li>
           <Link to='home' smooth={true} duration={500}>
             Home
@@ -48,10 +48,10 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+      </ul> */}
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className=' z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
